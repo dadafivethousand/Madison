@@ -28,8 +28,8 @@ const closeMenu = () => setClick(false)
         <div className={color ? 'header header-bg':'header'}>
             <nav className='navbar'>
                 <div>
-                <Link to='hero' syp={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>
-                    <img className='logo' src={logo} alt='logo' />
+                <Link to='/' syp={true} smooth={true} offset={50} duration={500} onClick={closeMenu}>
+                    <img className='logo' alt="Madison Avenue" src={logo}  />
                 </Link>
           
               
@@ -41,7 +41,7 @@ const closeMenu = () => setClick(false)
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                    <Link to='hero' syp={true} smooth={true}   duration={500} onClick={closeMenu}>Home  </Link>
+                    <Link to='/' syp={true} smooth={true}   duration={500} onClick={closeMenu}>Home  </Link>
                     </li>
             
 

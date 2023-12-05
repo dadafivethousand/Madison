@@ -5,7 +5,7 @@ export default function Herovideo() {
         window.open(url, '_blank', 'noopener,noreferrer');
     }
     return (
-        <div className="hero-container" id='hero'>
+        <div className="hero-container" id='/'>
             <video autoPlay loop muted>
                 <source src={covervid} type="video/mp4" /> 
                 Your browser does not support the video tag.

@@ -41,6 +41,7 @@
 .footer li a {
     color: #fff;
     text-decoration: none;
+    font-size: 1.5rem;
   
 }
 
@@ -70,5 +71,6 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      font-size: 1.5rem;
     }
 }

@@ -20,7 +20,7 @@ useEffect(() => {
 const backgroundImage = windowWidth < 800 ? shop1 : shop2;
 return (
  
-        <Parallax bgImageStyle={{   width:'100%',height: 'auto'}} className='image' bgImage={backgroundImage} strength={500}>
+        <Parallax bgImageStyle={{ top:"5%",    width:'100%',height: 'auto'}} className='image' bgImage={backgroundImage} strength={800}>
           <div className='content'> </div>
         </Parallax>
     );

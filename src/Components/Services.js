@@ -34,7 +34,7 @@ export default function Services() {
      
         </div>
 
-        <img className='logoblack' src={logoblack}/>
+        <img className='logoblack' alt="Madison Avenue"  src={logoblack}/>
 
         </div>
     )

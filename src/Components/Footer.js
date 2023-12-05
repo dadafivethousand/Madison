@@ -7,7 +7,7 @@ export default function Footer() {
     <div className='container'>
         <ul>
             <li className='item'>
-            <Link to='hero' syp={true} smooth={true}   duration={500}  >Home  </Link>
+            <Link to='/' syp={true} smooth={true}   duration={500}  >Home  </Link>
             </li>
             <li className='item'>
             <Link to='services' syp={true} offset={-50} smooth={true}   duration={500}  >Services  </Link>
@@ -21,7 +21,7 @@ export default function Footer() {
             <Link to='contact' syp={true} smooth={true} offset={-50}   duration={500}  >Contact  </Link>
             </li>
         </ul>
-        <img src={logowhite} />
+        <img src={logowhite} alt="Madison Avenue" />
         <div className='bottom'>
             <span className='line'></span>
             <p>2023  All rights reserved</p>

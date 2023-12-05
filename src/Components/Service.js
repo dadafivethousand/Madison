@@ -10,7 +10,8 @@ export default function Service({name}) {
          
         </div>
         <div className='BookNow'>
-        <p>Book Now</p>
+            <a href="https://getsquire.com/booking/book/madison-avenue-vaughan" target="_blank" rel="noopener noreferrer">  Book Now </a>
+       
         </div>
         </div>
 

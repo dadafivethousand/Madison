@@ -20,7 +20,7 @@ useEffect(() => {
  
 return (
  
-        <Parallax bgImageStyle={{   top:'5%', width:'120%',height: 'auto'}} className='image' bgImage={backgroundImage} strength={400}>
+        <Parallax bgImageStyle={{   top:'5%', width:'120%',height: 'auto'}} className='image' bgImage={backgroundImage} strength={800}>
           <div className='content2'>
           <Reviews />
         </div>   
