@@ -1,0 +1,97 @@
+    
+/* Reviews.css */
+
+.ReviewsContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    padding: 0 4vh;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    width:80vw;
+    opacity: 90%;
+    margin: 5vh auto;
+    min-height: 250px;     /* Fixed height */
+    border: #4285f4 solid 3px;
+}
+
+.ReviewsContainer button {
+    background-color: #4285f4;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ReviewsContainer button:hover {
+    background-color: #357ae8;
+}
+
+.Review-Text {
+    text-align: center;
+    color: #333;
+    font-size: 16px;
+    margin: 0 auto;
+    overflow: auto;
+font-weight: bold;
+    display: flex;
+    flex-direction: column;
+justify-content: flex-end;
+margin-bottom: 0;
+padding-bottom: 0;
+height:100%;
+ 
+}
+ 
+.Rating {
+    height:10%
+}
+ 
+.ReviewAuthor {
+    height:10%
+}
+
+.txt {
+    height:80%;
+    display:flex;
+    align-items: center;
+
+}
+.Rating .fa-star {
+    color: yellow;
+}
+
+@media(max-width: 500px) {
+    .ReviewsContainer {
+        
+        min-height: 300px;
+        padding: 0vh;
+        width:95vw;
+       
+ 
+  
+    }
+    .Review-Text {
+ 
+        padding: 0vh;
+        margin:0 auto;
+        font-size: 14px;
+  
+    }
+
+    .ReviewsContainer button {
+        background-color: #4285f4;
+        border: none;
+        color: white;
+        padding: 10px 15px;
+        margin: 0 5px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+}

@@ -1,0 +1,13 @@
+.DescriptionContainer  {
+    margin: 5rem 20rem;
+    height:fit-content
+}
+
+
+.DescriptionContainer img {
+    float:left ;
+    display: block;
+    height:500px;
+    width: auto;
+    
+}

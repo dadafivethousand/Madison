@@ -1,0 +1,25 @@
+
+.ContactContainer {
+ 
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000; /* Dark background */
+    color: #000000; /* Light text */
+    padding: 20px;
+  
+
+   
+
+}
+
+.ContactContainer > div {
+    flex: 1; /* This is the key property */
+    margin: 10px 10px; /* Optional: Adds space between the components */
+
+}
+
+@media (max-width: 820px) {
+    .ContactContainer {
+       flex-direction: column;
+    }
+}

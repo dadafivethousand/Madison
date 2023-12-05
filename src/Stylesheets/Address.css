@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Agbalumo';
+    src: local('Agbalumo'), 
+         url('../Fonts/Agbalumo-Regular.ttf') format('truetype');
+      
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.AddressContainer {
+    text-align: center;
+    padding: 15px;
+   
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+    background: rgba(255, 255, 255, 0.815);
+}
+ 
+.VisitUs h1 {
+    font-family: 'Agbalumo';
+    font-weight: lighter;
+    
+}
+ 
+.Address h2 {
+    font-size: 1.3rem;
+ 
+    
+}
+
+.Map iframe {
+    border: none;
+    border-radius: 8px;
+    height: 250px;
+}

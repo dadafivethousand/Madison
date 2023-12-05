@@ -1,0 +1,19 @@
+.Scissors, .Scissorsrotated{
+     
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+     
+  }
+
+  .Scissors >*,.Scissorsrotated >*  {
+ 
+    height:1.5rem;
+    padding:1rem;
+     
+    }
+ 
+    .Scissorsrotated >* {
+        transform:rotate(180deg)
+        
+    }

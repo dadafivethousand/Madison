@@ -1,0 +1,11 @@
+ .content {
+    height:70vh;
+    width:100vw;
+ }
+
+ @media (max-width:800px) {
+    .content {
+        height:30vh;
+        width:100vw;
+     }
+ }

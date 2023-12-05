@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Agbalumo';
+    src: local('Agbalumo'), 
+         url('../Fonts/Agbalumo-Regular.ttf') format('truetype');
+      
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.hero-container {
+    position: relative;
+    height: 100vh; /* Full height */
+    width: 100%; /* Full width */
+    overflow: hidden; /* Hide any overflow */
+}
+
+.hero-container video {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 50%;
+    height: 100%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+    z-index: -1; /* Ensure video stays in the background */
+}
+
+/* Style for your content */
+.hero-container h1 {
+    position: relative;
+    color: rgb(0, 0, 0);
+    /* Additional styling */
+}
+
+.hero-container p {
+    position: relative;
+    color: rgb(0, 0, 0);
+    /* Additional styling */
+}
+
+.BookingButton {
+    background-color: #000000; /* Uber Eats primary color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.5rem;     
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    height:fit-content;
+    width:30vw;
+    height:10vh;
+    margin: 50vh auto;
+    display:block;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.BookingButton:hover {
+    background-color: #3d4441;
+}
+
+@media (max-width:800px) {
+    .BookingButton {
+ 
+        width:60vw;
+    
+    
+    }
+
+}

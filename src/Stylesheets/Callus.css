@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'Agbalumo';
+    src: local('Agbalumo'), 
+         url('../Fonts/Agbalumo-Regular.ttf') format('truetype');
+      
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.CallContainer {
+    background: rgba(255, 255, 255, 0.815);
+    padding: 15px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+
+ 
+}
+.CallUs h1 {
+    font-family: 'Agbalumo';
+    font-weight: lighter;
+
+}
+ 
+
+  .PhoneNumber h2 {
+    font-size: 1.3rem;
+ 
+   
+}
+
+.PhoneNumber {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+   
+}
+
+.faPhone {
+    color: #98c379;
+    font-size: 2rem;
+}
