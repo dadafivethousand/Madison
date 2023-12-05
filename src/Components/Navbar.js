@@ -41,7 +41,7 @@ const closeMenu = () => setClick(false)
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                    <Link to='/' syp={true} smooth={true}   duration={500} onClick={closeMenu}>Home1  </Link>
+                    <Link to='/' syp={true} smooth={true}   duration={500} onClick={closeMenu}>Home  </Link>
                     </li>
             
 
