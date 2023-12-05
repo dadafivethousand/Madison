@@ -10,9 +10,16 @@ import beard from '../Images/beard.jpg'
 import lineup from '../Images/lineup.jpg'
 import scissor from '../Images/scissor2.jpg'
 import bpole from '../Images/bpole.png'
+
  
 export default function Services() {
-    const services = [{type:'haircut', image: haircut },{type:'beard', image: beard }, {type:'lineup', image: lineup }, {type:'styling', image: scissor } ]
+    const haircutpics = [haircut, haircut, haircut, haircut]
+    const beardpics = [beard, beard, beard, beard]
+    const lineuppics = [lineup,lineup,lineup,lineup]
+    const scissorpics = [scissor,scissor,scissor,scissor]
+    const services = [{type:'haircut', image: haircut, pics: haircutpics },{type:'beard', image: beard, pics:beardpics }, {type:'lineup', image: lineup, pics:lineuppics }, {type:'styling', image: scissor, pics:scissorpics} ]
+
+    
     return(<div className='ServicesContainer' id='services'>
         <div className='Heading'>
     <img src={bpole} />

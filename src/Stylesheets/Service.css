@@ -1,21 +1,31 @@
+.ServiceContainer {
+   display: flex;
+   flex-direction: column;
+   background: linear-gradient(to bottom, white, black);
+   border: 3px solid black;
+   border-radius: 3px;
+   height:fit-content;
+}
+
  
 
-.ServiceContainer:hover {
-cursor: pointer;
-  }
+.OuterServiceContainer {
+   display:flex;
+   flex-direction: column;
+}
 
  
-.ServiceName {
+.ServicePics {
     display: flex;
-    background: linear-gradient(to bottom, white, black);
+     
     align-items:flex-start;
     justify-content: center;
-   border: 3px solid black;
-   border-radius: 15px;
+ 
    color: rgb(3, 3, 3);
    height:15vh;
-   width:40vw;
+   width:100%;
    margin:0 auto;
+   height:fit-content;
 
 }
 
@@ -35,13 +45,22 @@ cursor: pointer;
     
 }
 
+ 
+
+.ServicePics img {
+  
+ width:20%;
+ margin:5px;
+ border: 3px black solid;
+}
+
 .BookNow:hover{
     transform: scale(1.10);
     background-color: black;
     color: white;
 }
 
-.ServiceContainer a {
+.BookNow a {
  text-align: center;
  margin: 0 auto;
  font-size: 1rem;
@@ -51,14 +70,10 @@ cursor: pointer;
 
   }
   @media (max-width:1000px) {
-    .ServiceContainer {
-        flex-direction: column;
-        border-radius: 0;
-     }
+ 
      .ServiceContainer Img {
         border-radius: 0;
-        width: 40vh;
-        height:60vh;
+ 
         border: 3px solid black;
       }
 
@@ -73,8 +88,8 @@ cursor: pointer;
          }
 
 
-         .ServiceName{
-            height:20vh;
+         .ServicePics{
+            height:fit-content;
             width:60vw;
          }
       
