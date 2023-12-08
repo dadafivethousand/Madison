@@ -1,0 +1,212 @@
+@keyframes glowAnimation {
+    0% {
+        background-position: top left;
+    }
+    100% {
+        background-position: bottom right;
+    }
+}
+
+.Film{
+ 
+background-color: black;
+ overflow-x: hidden;
+ 
+}
+.RightArrow{
+    border :2rem solid rgb(255, 255, 255);
+    border-right: black 20px solid;
+    border-top: black 1rem solid;
+    border-bottom: black 1rem solid;
+}
+
+.LeftArrow{
+    border :2rem solid rgb(255, 255, 255);
+    border-left: black 1rem solid;
+    border-top: black 1rem solid;
+    border-bottom: black 1rem solid;
+}
+
+
+.RightArrowBorder{
+    border: solid 2px white;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0 auto;
+}
+
+.LeftArrowBorder{
+    border: solid 2px white;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin:0 auto;
+}
+
+.LeftArrowBorder:hover , .RightArrowBorder:hover{
+cursor: pointer;
+}
+
+.WhiteSquare {
+    height:1rem;
+    min-width: 2rem;
+    background-color: white;
+    border:0.5rem solid black
+
+}
+
+.Film button {
+    background-color: rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    height:3rem;
+    border: 3px solid white;
+    width: 5rem;
+    background-size: 300% 300%;
+    transition: 0.5s ease;
+
+ 
+}
+.Film button:hover {
+ cursor:pointer;
+ animation: glowAnimation 2s infinite alternate;
+ 
+}
+
+.FirstRow, .MiddleRow, .LastRow {
+    padding:0;
+    margin:0;
+ 
+    display:flex;
+    overflow-x: hidden;
+    align-items: center;
+ 
+}
+
+.MiddleRow {
+    justify-content: space-between;
+    margin:0 auto;
+    transition: 3s;
+}
+
+ 
+
+.MiddleRow img {
+    display: block;
+    object-fit: cover;
+    width: 12rem; 
+    height:20rem;   
+    margin:0 10px;
+    padding:0;
+
+}
+
+.MiddleRow img:hover {
+    cursor:pointer;
+}
+.Close{
+ 
+    
+    font-size: 2rem;
+    color:white; 
+    font-family: Arial, Helvetica, sans-serif;
+    height:50px
+    
+}
+
+.Close:hover{
+cursor: pointer;
+    
+}
+
+
+.Close p{
+    border: white solid 3px ;
+    margin:0;
+    padding: 0;
+ 
+    font-weight: bold;
+    
+ 
+    
+}
+
+
+.enlargedImageContainer {
+    position: fixed; /* Fixed position relative to the viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column; /* Flexbox for centering the image */
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+    z-index: 1000; /* High z-index to ensure it's on top of other elements */
+ }
+ 
+ .enlargedImage {
+    max-width: 80%; /* Adjust the size as needed */
+    max-height: 80%; /* Adjust the size as needed */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+ }
+
+
+ @media(max-width:800px) {
+
+    .WhiteSquare {
+        
+        height:1rem;
+    }
+
+    .RightArrow{
+        border :10px solid rgb(255, 255, 255);
+        border-right: black 10px solid;
+        border-top: black 10px solid;
+        border-bottom: black 10px solid;
+    }
+    
+    .LeftArrow{
+        border :10px solid rgb(255, 255, 255);
+        border-left: black 10px solid;
+        border-top: black 10px solid;
+        border-bottom: black 10px solid;
+    }
+    
+    
+    .RightArrowBorder{
+        border: solid 2px white;
+        padding-left: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin:0 auto;
+    }
+    
+    .LeftArrowBorder{
+        border: solid 2px white;
+        padding-right: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin:0 auto;
+    }
+  
+
+
+ 
+
+    .MiddleRow img {        
+        width:10rem;
+        margin:0 10px;
+        padding:0;
+    }
+ 
+    
+    
+ }
+ 
+ /* Define the keyframe animation */
+
+
+/* Apply the effect to an element */
+ 

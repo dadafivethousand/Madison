@@ -20,6 +20,30 @@ export default function Scissors({rotate}) {
             <FontAwesomeIcon icon={faScissors} />
             <FontAwesomeIcon icon={faScissors} />
             <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon  icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon icon={faScissors} />
+            <FontAwesomeIcon  icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
             
        
         </div>:
@@ -36,6 +60,30 @@ export default function Scissors({rotate}) {
                 <FontAwesomeIcon icon={faScissors} />
                 <FontAwesomeIcon icon={faScissors} />
                 <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon  icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon  icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />
+                <FontAwesomeIcon icon={faScissors} />   
                 
           
             </div>

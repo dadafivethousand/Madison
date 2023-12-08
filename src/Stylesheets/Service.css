@@ -5,7 +5,10 @@
    border: 3px solid black;
    border-radius: 3px;
    height:fit-content;
+  
 }
+
+
 
  
 
@@ -41,6 +44,7 @@
     border-bottom: 3px black solid;
     border-left: 3px black solid;
     border-right:3px black solid;
+ 
     
     
 }
@@ -54,6 +58,11 @@
  border: 3px black solid;
 }
 
+.ServicePics img:hover {
+   cursor: pointer
+  }
+  
+
 .BookNow:hover{
     transform: scale(1.10);
     background-color: black;
@@ -63,12 +72,16 @@
 .BookNow a {
  text-align: center;
  margin: 0 auto;
- font-size: 1rem;
+ font-size: 2rem;
  padding:0.5rem;
  color: white;
  text-decoration: none;
+}
 
-  }
+.ServiceName{
+   font-size: 2rem;
+}
+ 
   @media (max-width:1000px) {
  
      .ServiceContainer Img {
@@ -94,7 +107,7 @@
          }
       
          .BookNow a{
-      font-size: 1rem;
+      font-size: 2rem;
           
       }
   

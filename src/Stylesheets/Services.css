@@ -13,7 +13,7 @@
 .Services{
   display: flex;
   justify-content: space-between;
-  max-width:80vw;
+  max-width:90vw;
   
   margin:0 auto; 
 
@@ -25,11 +25,12 @@
  display: flex;
  flex-direction: column;
   text-align: center;
-  width:100%;
+  width:80%;
   text-transform: capitalize;
   font-family: 'Agbalumo';
   font-size: 1rem;
    gap:2rem;
+   margin: 0 auto;
 }
 
 
@@ -83,19 +84,21 @@
 
 
 @media (max-width:800px) {
+
+  .Services{
+    margin:0 auto;
+  }
   .ServiceGrid{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+   
   }
   .right, .left {
     display:none;
   
   }
-
-  .Services{
-    max-width:80vw
-  }
-  
+ 
   .Heading {
     display:flex;
     align-items: center;
