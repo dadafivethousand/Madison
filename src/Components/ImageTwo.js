@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Parallax } from 'react-parallax'
-import pic from '../Images/image2.png'
-import pic2 from '../Images/image2.png'
+import pic from '../Images/image2.jpg'
+import pic2 from '../Images/image2.jpg'
 import Reviews from './Reviews'
 import '../Stylesheets/ImageTwo.css'
  

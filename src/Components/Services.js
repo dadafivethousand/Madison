@@ -9,7 +9,7 @@ import haircut from '../Images/haircut.jpg'
 import beard from '../Images/beard.jpg'
 import lineup from '../Images/lineup.jpg'
 import scissor from '../Images/scissor2.jpg'
-import bpole from '../Images/bpole.png'
+import bpole from '../Images/bpole.jpg'
 import image2 from '../Images/image2.png'
 
  
