@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import {  FaBars, FaTimes, FaInstagram, FaFacebookF, FaTwitter } from 'react-icons/fa'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import logo from '../Images/logwhite.jpg'
+import logo from '../Images/logwhite.png'
 import { Link } from 'react-scroll'
 import '../Stylesheets/Navbar.css'
 
